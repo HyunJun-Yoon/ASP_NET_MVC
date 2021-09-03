@@ -1,0 +1,8 @@
+C:\Projects\AspNetPost\Post.Model\bin\Debug\netcoreapp3.1\Post.Model.deps.json
+C:\Projects\AspNetPost\Post.Model\bin\Debug\netcoreapp3.1\Post.Model.dll
+C:\Projects\AspNetPost\Post.Model\bin\Debug\netcoreapp3.1\Post.Model.pdb
+C:\Projects\AspNetPost\Post.Model\obj\Debug\netcoreapp3.1\Post.Model.csprojAssemblyReference.cache
+C:\Projects\AspNetPost\Post.Model\obj\Debug\netcoreapp3.1\Post.Model.AssemblyInfoInputs.cache
+C:\Projects\AspNetPost\Post.Model\obj\Debug\netcoreapp3.1\Post.Model.AssemblyInfo.cs
+C:\Projects\AspNetPost\Post.Model\obj\Debug\netcoreapp3.1\Post.Model.dll
+C:\Projects\AspNetPost\Post.Model\obj\Debug\netcoreapp3.1\Post.Model.pdb

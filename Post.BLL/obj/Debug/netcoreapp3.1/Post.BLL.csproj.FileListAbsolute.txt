@@ -1,0 +1,13 @@
+C:\Projects\AspNetPost\Post.BLL\bin\Debug\netcoreapp3.1\Post.BLL.deps.json
+C:\Projects\AspNetPost\Post.BLL\bin\Debug\netcoreapp3.1\Post.BLL.dll
+C:\Projects\AspNetPost\Post.BLL\bin\Debug\netcoreapp3.1\Post.BLL.pdb
+C:\Projects\AspNetPost\Post.BLL\bin\Debug\netcoreapp3.1\Post.IDAL.dll
+C:\Projects\AspNetPost\Post.BLL\bin\Debug\netcoreapp3.1\Post.Model.dll
+C:\Projects\AspNetPost\Post.BLL\bin\Debug\netcoreapp3.1\Post.IDAL.pdb
+C:\Projects\AspNetPost\Post.BLL\bin\Debug\netcoreapp3.1\Post.Model.pdb
+C:\Projects\AspNetPost\Post.BLL\obj\Debug\netcoreapp3.1\Post.BLL.csprojAssemblyReference.cache
+C:\Projects\AspNetPost\Post.BLL\obj\Debug\netcoreapp3.1\Post.BLL.AssemblyInfoInputs.cache
+C:\Projects\AspNetPost\Post.BLL\obj\Debug\netcoreapp3.1\Post.BLL.AssemblyInfo.cs
+C:\Projects\AspNetPost\Post.BLL\obj\Debug\netcoreapp3.1\Post.BLL.csproj.CopyComplete
+C:\Projects\AspNetPost\Post.BLL\obj\Debug\netcoreapp3.1\Post.BLL.dll
+C:\Projects\AspNetPost\Post.BLL\obj\Debug\netcoreapp3.1\Post.BLL.pdb

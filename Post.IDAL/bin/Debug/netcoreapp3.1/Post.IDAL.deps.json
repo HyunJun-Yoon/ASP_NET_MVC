@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Post.IDAL/1.0.0": {
+        "dependencies": {
+          "Post.Model": "1.0.0"
+        },
+        "runtime": {
+          "Post.IDAL.dll": {}
+        }
+      },
+      "Post.Model/1.0.0": {
+        "runtime": {
+          "Post.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Post.IDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Post.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

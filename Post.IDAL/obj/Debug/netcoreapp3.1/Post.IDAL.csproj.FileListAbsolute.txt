@@ -1,0 +1,11 @@
+C:\Projects\AspNetPost\Post.IDAL\bin\Debug\netcoreapp3.1\Post.IDAL.deps.json
+C:\Projects\AspNetPost\Post.IDAL\bin\Debug\netcoreapp3.1\Post.IDAL.dll
+C:\Projects\AspNetPost\Post.IDAL\bin\Debug\netcoreapp3.1\Post.IDAL.pdb
+C:\Projects\AspNetPost\Post.IDAL\bin\Debug\netcoreapp3.1\Post.Model.dll
+C:\Projects\AspNetPost\Post.IDAL\bin\Debug\netcoreapp3.1\Post.Model.pdb
+C:\Projects\AspNetPost\Post.IDAL\obj\Debug\netcoreapp3.1\Post.IDAL.csprojAssemblyReference.cache
+C:\Projects\AspNetPost\Post.IDAL\obj\Debug\netcoreapp3.1\Post.IDAL.AssemblyInfoInputs.cache
+C:\Projects\AspNetPost\Post.IDAL\obj\Debug\netcoreapp3.1\Post.IDAL.AssemblyInfo.cs
+C:\Projects\AspNetPost\Post.IDAL\obj\Debug\netcoreapp3.1\Post.IDAL.csproj.CopyComplete
+C:\Projects\AspNetPost\Post.IDAL\obj\Debug\netcoreapp3.1\Post.IDAL.dll
+C:\Projects\AspNetPost\Post.IDAL\obj\Debug\netcoreapp3.1\Post.IDAL.pdb
