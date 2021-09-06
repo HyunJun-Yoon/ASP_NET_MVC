@@ -7,16 +7,15 @@ namespace Post.MVC6.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly UserBll _userBll;
+        private readonly NoticeBll _noticeBll;
 
-        public HomeController(UserBll userBll)
+        public HomeController(NoticeBll noticeBll)
         {
-            _userBll = userBll;
+            _noticeBll = noticeBll;
         }
-
         public IActionResult Index()
         {
-            var user = _userBll.GetUserList();
+            var list = _noticeBll.GetNoticeList();
             return View();
         }
 

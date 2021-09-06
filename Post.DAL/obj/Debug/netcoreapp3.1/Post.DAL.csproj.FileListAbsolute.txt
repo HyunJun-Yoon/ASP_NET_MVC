@@ -11,3 +11,5 @@ C:\Projects\AspNetPost\Post.DAL\obj\Debug\netcoreapp3.1\Post.DAL.AssemblyInfo.cs
 C:\Projects\AspNetPost\Post.DAL\obj\Debug\netcoreapp3.1\Post.DAL.csproj.CopyComplete
 C:\Projects\AspNetPost\Post.DAL\obj\Debug\netcoreapp3.1\Post.DAL.dll
 C:\Projects\AspNetPost\Post.DAL\obj\Debug\netcoreapp3.1\Post.DAL.pdb
+C:\Projects\AspNetPost\Post.DAL\bin\Debug\netcoreapp3.1\Post.DAL.runtimeconfig.json
+C:\Projects\AspNetPost\Post.DAL\bin\Debug\netcoreapp3.1\Post.DAL.runtimeconfig.dev.json

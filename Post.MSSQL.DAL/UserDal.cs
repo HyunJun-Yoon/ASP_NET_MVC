@@ -7,17 +7,17 @@ namespace Post.MSSQL.DAL
 {
     public class UserDal : IUserDal
     {
-        public User GetUser(int userNumber)
+        public Notice GetUser(int userNumber)
         {
             throw new NotImplementedException();
         }
 
-        public List<User> GetUserList()
+        public List<Notice> GetUserList()
         {
             throw new NotImplementedException();
         }
 
-        public bool SaveUser(User user)
+        public bool SaveUser(Notice user)
         {
             throw new NotImplementedException();
         }

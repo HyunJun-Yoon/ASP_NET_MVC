@@ -4,8 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Post.BLL;
+using Post.DAL;
 using Post.IDAL;
-using Post.MSSQL.DAL;
 
 namespace Post.MVC6
 {
@@ -21,9 +21,11 @@ namespace Post.MVC6
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IConfiguration>(Configuration);
+
             services.AddControllersWithViews();
-            services.AddTransient<UserBll>();
-            services.AddTransient<IUserDal, UserDal>();
+            services.AddTransient<NoticeBll>();
+            services.AddTransient<INoticeDal, NoticeDal>();
 
         }
 

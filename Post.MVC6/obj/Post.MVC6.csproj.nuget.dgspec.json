@@ -60,6 +60,78 @@
         }
       }
     },
+    "C:\\Projects\\AspNetPost\\Post.DAL\\Post.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AspNetPost\\Post.DAL\\Post.DAL.csproj",
+        "projectName": "Post.DAL",
+        "projectPath": "C:\\Projects\\AspNetPost\\Post.DAL\\Post.DAL.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AspNetPost\\Post.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projects\\AspNetPost\\Post.IDAL\\Post.IDAL.csproj": {
+                "projectPath": "C:\\Projects\\AspNetPost\\Post.IDAL\\Post.IDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projects\\AspNetPost\\Post.IDAL\\Post.IDAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -168,65 +240,6 @@
         }
       }
     },
-    "C:\\Projects\\AspNetPost\\Post.MSSQL.DAL\\Post.MSSQL.DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Projects\\AspNetPost\\Post.MSSQL.DAL\\Post.MSSQL.DAL.csproj",
-        "projectName": "Post.MSSQL.DAL",
-        "projectPath": "C:\\Projects\\AspNetPost\\Post.MSSQL.DAL\\Post.MSSQL.DAL.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\AspNetPost\\Post.MSSQL.DAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Projects\\AspNetPost\\Post.IDAL\\Post.IDAL.csproj": {
-                "projectPath": "C:\\Projects\\AspNetPost\\Post.IDAL\\Post.IDAL.csproj"
-              },
-              "C:\\Projects\\AspNetPost\\Post.Model\\Post.Model.csproj": {
-                "projectPath": "C:\\Projects\\AspNetPost\\Post.Model\\Post.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Projects\\AspNetPost\\Post.MVC6\\Post.MVC6.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -253,11 +266,8 @@
               "C:\\Projects\\AspNetPost\\Post.BLL\\Post.BLL.csproj": {
                 "projectPath": "C:\\Projects\\AspNetPost\\Post.BLL\\Post.BLL.csproj"
               },
-              "C:\\Projects\\AspNetPost\\Post.MSSQL.DAL\\Post.MSSQL.DAL.csproj": {
-                "projectPath": "C:\\Projects\\AspNetPost\\Post.MSSQL.DAL\\Post.MSSQL.DAL.csproj"
-              },
-              "C:\\Projects\\AspNetPost\\Post.Oracle.DAL\\Post.Oracle.DAL.csproj": {
-                "projectPath": "C:\\Projects\\AspNetPost\\Post.Oracle.DAL\\Post.Oracle.DAL.csproj"
+              "C:\\Projects\\AspNetPost\\Post.DAL\\Post.DAL.csproj": {
+                "projectPath": "C:\\Projects\\AspNetPost\\Post.DAL\\Post.DAL.csproj"
               }
             }
           }
@@ -270,6 +280,18 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -284,62 +306,6 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Projects\\AspNetPost\\Post.Oracle.DAL\\Post.Oracle.DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Projects\\AspNetPost\\Post.Oracle.DAL\\Post.Oracle.DAL.csproj",
-        "projectName": "Post.Oracle.DAL",
-        "projectPath": "C:\\Projects\\AspNetPost\\Post.Oracle.DAL\\Post.Oracle.DAL.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\AspNetPost\\Post.Oracle.DAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Projects\\AspNetPost\\Post.IDAL\\Post.IDAL.csproj": {
-                "projectPath": "C:\\Projects\\AspNetPost\\Post.IDAL\\Post.IDAL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

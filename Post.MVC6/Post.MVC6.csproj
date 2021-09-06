@@ -1,13 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Post.BLL\Post.BLL.csproj" />
-    <ProjectReference Include="..\Post.MSSQL.DAL\Post.MSSQL.DAL.csproj" />
-    <ProjectReference Include="..\Post.Oracle.DAL\Post.Oracle.DAL.csproj" />
+    <ProjectReference Include="..\Post.DAL\Post.DAL.csproj" />
   </ItemGroup>
 
 
